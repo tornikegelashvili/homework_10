@@ -1,0 +1,36 @@
+.conteiner{
+    display: flex;
+    justify-content: space-between;
+    background-image: url(./image/1.jpg);
+    max-width: auto;
+    height: 900px;
+}
+img{
+    display: flex;
+    width: 30px;
+    height: 30px;
+    margin-top: 30px;
+    margin-left: 40px;
+}
+ul{
+    display: flex;
+    list-style: none;
+    text-decoration: none;
+}
+li{
+    margin-right: 20px;
+    text-decoration:none;
+    color: aliceblue;
+    
+}
+li:last-child{
+    margin-right: 200px;
+}
+.paragrap{
+    display: flex;
+    color: aliceblue;
+    letter-spacing: 9px;
+    font-size: 30px;
+   align-items: flex-end;
+
+}
